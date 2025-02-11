@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "dXJuOm1ieHBsYzpJdXc",
+      "geometry": { "type": "Point", "coordinates": [-97.922211, 39.381266] },
+      "properties": {
+        "mapbox_id": "dXJuOm1ieHBsYzpJdXc",
+        "feature_type": "country",
+        "full_address": "United States",
+        "name": "US",
+        "name_preferred": "United States",
+        "coordinates": { "longitude": -97.922211, "latitude": 39.381266 },
+        "bbox": [-179.9, 18.829161, -66.902733, 71.420291],
+        "context": {
+          "country": {
+            "mapbox_id": "dXJuOm1ieHBsYzpJdXc",
+            "name": "United States",
+            "country_code": "US",
+            "country_code_alpha_3": "USA",
+            "wikidata_id": "Q30"
+          }
+        }
+      }
+    }
+  ],
+  "attribution": "NOTICE: © 2025 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained."
+}

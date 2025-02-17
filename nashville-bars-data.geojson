@@ -1,16 +1,180 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "name": "red phone booth", "description": "Red Phone Booth is a true speakeasy, in that you won’t gain access without a secret code. If you don’t want to guess, you can get the code by asking them, finding a club member, or checking with a downtown hotel concierge (if you’re traveling).\n\nOnce you have the code, punch it into the bright red vintage phone booth that guards the entrance. Have your camera ready as something really cool happens!\n\nCome in, and enjoy a lively time of cocktails, cigars, and pizza — because what’s illicit booze without a slice?", "address": "136 Rosa L. Parks Blvd, Nashville, TN", "latitude": 36.160115, "longitude": -86.782589, "coordinates": "-86.782589,36.160115", "zipcode": 37203, "hoodname": "Downtown", "hood": "Downtown", "id": "9493f7a0-12af-4e2a-8118-73343032fb65" }, "geometry": { "type": "Point", "coordinates": [ -86.782589, 36.160115 ] } },
-{ "type": "Feature", "properties": { "name": "Hidden Bar - Noelle Hotel", "description": "There’s no secret entry to the Hidden Bar. You just need to find it at the Noelle Hotel, and that hint is only so much help. This truly is the most hidden watering hole in the city.\n\nTo get to the hidden bar, first get yourself to the boutique hotel’s basement. Look for a nondescript door and double-way mirror, and go through the door which you’d almost certainly never open otherwise.\n\nYou’ll find an Instagram-worthy entryway, and then a themed bar and lounge. Themes vary, but they’re always well executed. Expect the drinks to complement the decor.", "address": "200 4th Ave N, Nashville, TN", "latitude": 36.163975, "longitude": -86.778787, "coordinates": "-86.778787,36.163975", "zipcode": 37219, "hoodname": "Downtown", "hood": "Downtown", "id": "e5c369e3-2d4d-4fed-9f75-bc55c1b58574" }, "geometry": { "type": "Point", "coordinates": [ -86.778787, 36.163975 ] } },
-{ "type": "Feature", "properties": { "name": "Old Glory", "description": "Old Glory is another bar that’s well hidden, albeit not as intentionally as the Hidden Bar. The three-story bar is the boiler room of a former dry cleaner. Head to Villa Place, go along the interior hallway, and descend the stairs downward toward where the boiler room would’ve been.\n\nThere’s no mistaking that this used to be a boiler room, as there are only some small windows up high that let in natural light. The atmosphere is much different now, though. Be sure to note the plants growing along the walls, in between sips of a finely crafted cocktail.", "address": "1200 Villa Pl UNIT 103, Nashville, TN 37212", "latitude": 36.142844, "longitude": -86.791685, "coordinates": "-86.791685,36.142844", "zipcode": 37212, "hoodname": "Music Row/Demon Breun", "hood": "Music Row/Demon Breun", "id": "c4f10a2d-d9f0-4472-8ffb-f1e69e1f6d9b" }, "geometry": { "type": "Point", "coordinates": [ -86.791685, 36.142844 ] } },
-{ "type": "Feature", "properties": { "name": "Skull's Rainbow Room", "description": "Skull’s Rainbow Room isn’t on this list so much because of its secrecy — the place itself claims to be “world famous.” Instead, Skull’s is on this list for capturing the high class of speakeasies.\n\nCome here for the fine dining and exquisite drinks, and take in the ambiance. That ambiance will almost certainly include live music or a show of some sort. You might even become a show volunteer if you sit near the pit when the burlesque dancers are on (which is often). You’ve been warned.", "address": "225 Printers Alley, Nashville, TN", "latitude": 36.164026, "longitude": -86.778385, "coordinates": "-86.778385,36.164026", "zipcode": 37201, "hoodname": "Downtown", "hood": "Downtown", "id": "eee378a9-6532-4bf3-a439-e7077c3fc797" }, "geometry": { "type": "Point", "coordinates": [ -86.778385, 36.164026 ] } },
-{ "type": "Feature", "properties": { "name": "Black Rabbit", "description": "Black Rabbit was a true speakeasy, and fairly credibly for the mobster Al Capone. There are supposedly hidden tunnels beneath the speakeasy, which Capone would use to smuggle booze from the Cumberland River to the bars on Printers Alley. Unfortunately, these tunnels remain hidden.\n\nToday, Black Rabbit is a licensed establishment with entirely legal liquors. Come here for a good drink,and take in the history of the place. It was once also the office of Jimmy Hoffa’s attorney.", "address": "218 3rd Ave N, Nashville, TN 37201", "latitude": 36.164938, "longitude": -86.777971, "coordinates": "-86.777971,36.164938", "zipcode": 37201, "hoodname": "Downtown", "hood": "Downtown", "id": "692cd1e2-cd2a-4a10-a7bf-3b82749ad31e" }, "geometry": { "type": "Point", "coordinates": [ -86.777971, 36.164938 ] } },
-{ "type": "Feature", "properties": { "name": "Fox Bar & Cocktail Club", "description": "Easiest the best place on this list, what the Fox Bar & Cocktail Club lacks in secrecy it makes up for in quality. Several of the mixologists have won competitions, and they can create almost anything you’ve heard of or could imagine.\n\nKeep your eye out for Gatsby, as this is exactly the type of place he might frequent in The Great Gatsby. Ask him to share a charcuterie board if you do see the fictional character — the board is award-winning too.", "address": "2905B Gallatin Pike, Nashville, TN 37216", "latitude": 36.202877, "longitude": -86.739424, "coordinates": "-86.739424,36.202877", "zipcode": 37216, "hoodname": "East Nashville", "hood": "East Nashville", "id": "718729f5-f30c-4901-a4c3-bd299f9a2fc3" }, "geometry": { "type": "Point", "coordinates": [ -86.739424, 36.202877 ] } },
-{ "type": "Feature", "properties": { "name": "Green Hour Cocktail & Absinthe Lounge", "description": "For an equally swanky, but different, feel head to Green Hour Cocktail & Absinthe Lounge. It’s a French-themed place where you might meet a poet, novelist, or otherwise slightly inebriated dreamer. It’s also an easy place to spot — just look for the green window in Germantown.\n\nAnd, you’ll specifically want to stop in when the window is lit up green. Absinthe cocktails are only served if the green lights are on, and they’re the main reason to seek this place out. The other is if you happen to be in Germantown rather than on Broadway.", "address": "1201 5th Ave N, Nashville, TN 37208", "latitude": 36.17531, "longitude": -86.788239, "coordinates": "-86.788239,36.17531", "zipcode": 37208, "hoodname": "Germantown", "hood": "Germantown", "id": "acb0fe12-8db8-4afe-8de2-7327c165aceb" }, "geometry": { "type": "Point", "coordinates": [ -86.788239, 36.17531 ] } },
-{ "type": "Feature", "properties": { "name": "Greenhouse Bar", "description": "Greenhouse Bar, not to be confused with Green Hour Lounge, is hidden away within a large greenhouse. There’s nothing quite like sipping surrounded by flora from all over. Who knows, perhaps the mint in your mint julep came from just outside the door. To top it off, the place just happens to be in Green Hills.\n\nThis place is worth coming to for lunch even if you aren’t a botanist. Cocktails are paired with craft beers, and the kitchen puts out some decent sandwiches and snacks. It’s also a much more laid-back feel than the nightly seen downtown.", "address": "2211 Bandywood Dr, Nashville, TN 37215", "latitude": 36.10443, "longitude": -86.81761, "coordinates": "-86.81761,36.10443", "zipcode": 37215, "hoodname": null, "hood": null, "id": "15ac8ba9-8e58-41bd-99c4-8676eb0bac90" }, "geometry": { "type": "Point", "coordinates": [ -86.81761, 36.10443 ] } },
-{ "type": "Feature", "properties": { "name": "Dirty Little Secret", "description": "The Dirty Little Secret is that this place is little-known outside of Nashville locals. Near Printers Alley, where almost everyone heads, this hole in the wall gets overlooked because of its location and appearance. Look for a nondescript bar just off of Printers Alley, rather than a ritzy one right on the street.\n\nBeing a local gem doesn’t mean The Dirty Little Secret is cheap. It’s where locals head for a special night out. Cocktails regularly run $10+.Seats can fill up on busier evenings, too. It’ll just be a more Nashville crowd than what’s at the others.", "address": "210 Printers Alley, Nashville, TN 37201", "latitude": 36.16433, "longitude": -86.77866, "coordinates": "-86.77866,36.16433", "zipcode": 37219, "hoodname": "Downtown", "hood": "Downtown", "id": "e1627fb8-5730-4b17-bf9e-d07872deec04" }, "geometry": { "type": "Point", "coordinates": [ -86.77866, 36.16433 ] } },
-{ "type": "Feature", "properties": { "name": "The Late Great Nashville", "description": "The Late Great is one of many bars in midtown Nashville, located below the Virgin Hotel with its interior designed by Hannah Crowell, granddaughter of Johnny Cash, and it pays homage to country music and Americana icons from the 1970s and earlier. The space features folk art, family photos, and artifacts that create a cozy, eclectic feel.\n\nThe Late Great at Virgin Hotels harkens back to the golden days of country music. You could easily imagine Johnny Cash himself having a cocktail here. The speakeasy is modeled after the rooms music studio “B rooms”, where the musicians could be found lounging but industry executives generally weren’t allowed.\n\nThis is one speakeasy that remains a fairly private club, complete with liquor lockers. You’re able to call ahead for reservations if you have a small group, though. Ask on the phone how to recognize the unmarked door. ", "address": "1 Music Square W, Nashville, TN 37203", "latitude": 36.15165, "longitude": -86.793222, "coordinates": "-86.793222,36.15165", "zipcode": 37203, "hoodname": "Music Row/Demon Breun", "hood": "Music Row/Demon Breun", "id": "0c7f8017-a9a9-4da0-9c36-f4f4b85b0bfe" }, "geometry": { "type": "Point", "coordinates": [ -86.793222, 36.15165 ] } }
-]
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "red phone booth",
+        "description": "Red Phone Booth is a true speakeasy, in that you won’t gain access without a secret code. If you don’t want to guess, you can get the code by asking them, finding a club member, or checking with a downtown hotel concierge (if you’re traveling).\n\nOnce you have the code, punch it into the bright red vintage phone booth that guards the entrance. Have your camera ready as something really cool happens!\n\nCome in, and enjoy a lively time of cocktails, cigars, and pizza — because what’s illicit booze without a slice?",
+        "address": "136 Rosa L. Parks Blvd, Nashville, TN",
+        "latitude": 36.160115,
+        "longitude": -86.782589,
+        "coordinates": "-86.782589,36.160115",
+        "zipcode": 37203,
+        "hoodname": "Downtown",
+        "hood": "Downtown",
+        "igWidgetId": "8d8b29bf-1e6c-482b-96d1-2493c0905503",
+        "id": "9493f7a0-12af-4e2a-8118-73343032fb65"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.782589, 36.160115] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hidden Bar - Noelle Hotel",
+        "description": "There’s no secret entry to the Hidden Bar. You just need to find it at the Noelle Hotel, and that hint is only so much help. This truly is the most hidden watering hole in the city.\n\nTo get to the hidden bar, first get yourself to the boutique hotel’s basement. Look for a nondescript door and double-way mirror, and go through the door which you’d almost certainly never open otherwise.\n\nYou’ll find an Instagram-worthy entryway, and then a themed bar and lounge. Themes vary, but they’re always well executed. Expect the drinks to complement the decor.",
+        "address": "200 4th Ave N, Nashville, TN",
+        "latitude": 36.163975,
+        "longitude": -86.778787,
+        "coordinates": "-86.778787,36.163975",
+        "zipcode": 37219,
+        "igWidgetId": "b14634f6-8ef6-4bf3-a7ae-e76f6da9eaaf",
+        "hoodname": "Downtown",
+        "hood": "Downtown",
+        "id": "e5c369e3-2d4d-4fed-9f75-bc55c1b58574"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.778787, 36.163975] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Glory",
+        "description": "Old Glory is another bar that’s well hidden, albeit not as intentionally as the Hidden Bar. The three-story bar is the boiler room of a former dry cleaner. Head to Villa Place, go along the interior hallway, and descend the stairs downward toward where the boiler room would’ve been.\n\nThere’s no mistaking that this used to be a boiler room, as there are only some small windows up high that let in natural light. The atmosphere is much different now, though. Be sure to note the plants growing along the walls, in between sips of a finely crafted cocktail.",
+        "address": "1200 Villa Pl UNIT 103, Nashville, TN 37212",
+        "latitude": 36.142844,
+        "longitude": -86.791685,
+        "coordinates": "-86.791685,36.142844",
+        "zipcode": 37212,
+        "igWidgetId": "e81f21e3-8ce7-4953-bb15-ee185612741b",
+        "hoodname": "Music Row/Demon Breun",
+        "hood": "Music Row/Demon Breun",
+
+        "id": "c4f10a2d-d9f0-4472-8ffb-f1e69e1f6d9b"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.791685, 36.142844] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skull's Rainbow Room",
+        "description": "Skull’s Rainbow Room isn’t on this list so much because of its secrecy — the place itself claims to be “world famous.” Instead, Skull’s is on this list for capturing the high class of speakeasies.\n\nCome here for the fine dining and exquisite drinks, and take in the ambiance. That ambiance will almost certainly include live music or a show of some sort. You might even become a show volunteer if you sit near the pit when the burlesque dancers are on (which is often). You’ve been warned.",
+        "address": "225 Printers Alley, Nashville, TN",
+        "latitude": 36.164026,
+        "longitude": -86.778385,
+        "coordinates": "-86.778385,36.164026",
+        "zipcode": 37201,
+        "hoodname": "Downtown",
+        "igWidgetId": "a2a360fa-27de-4094-92db-36f25bc8dc4d",
+        "hood": "Downtown",
+        "id": "eee378a9-6532-4bf3-a439-e7077c3fc797"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.778385, 36.164026] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Black Rabbit",
+        "description": "Black Rabbit was a true speakeasy, and fairly credibly for the mobster Al Capone. There are supposedly hidden tunnels beneath the speakeasy, which Capone would use to smuggle booze from the Cumberland River to the bars on Printers Alley. Unfortunately, these tunnels remain hidden.\n\nToday, Black Rabbit is a licensed establishment with entirely legal liquors. Come here for a good drink,and take in the history of the place. It was once also the office of Jimmy Hoffa’s attorney.",
+        "address": "218 3rd Ave N, Nashville, TN 37201",
+        "latitude": 36.164938,
+        "longitude": -86.777971,
+        "coordinates": "-86.777971,36.164938",
+        "zipcode": 37201,
+        "hoodname": "Downtown",
+        "hood": "Downtown",
+        "igWidgetId": "02240aeb-7de6-4931-8b6f-876bff15df07",
+        "id": "692cd1e2-cd2a-4a10-a7bf-3b82749ad31e"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.777971, 36.164938] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fox Bar & Cocktail Club",
+        "description": "Easiest the best place on this list, what the Fox Bar & Cocktail Club lacks in secrecy it makes up for in quality. Several of the mixologists have won competitions, and they can create almost anything you’ve heard of or could imagine.\n\nKeep your eye out for Gatsby, as this is exactly the type of place he might frequent in The Great Gatsby. Ask him to share a charcuterie board if you do see the fictional character — the board is award-winning too.",
+        "address": "2905B Gallatin Pike, Nashville, TN 37216",
+        "latitude": 36.202877,
+        "longitude": -86.739424,
+        "coordinates": "-86.739424,36.202877",
+        "zipcode": 37216,
+        "hoodname": "East Nashville",
+        "igWidgetId": "551f62ce-dc49-4c21-96c8-056077a45875",
+        "hood": "East Nashville",
+        "id": "718729f5-f30c-4901-a4c3-bd299f9a2fc3"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.739424, 36.202877] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Green Hour Cocktail & Absinthe Lounge",
+        "description": "For an equally swanky, but different, feel head to Green Hour Cocktail & Absinthe Lounge. It’s a French-themed place where you might meet a poet, novelist, or otherwise slightly inebriated dreamer. It’s also an easy place to spot — just look for the green window in Germantown.\n\nAnd, you’ll specifically want to stop in when the window is lit up green. Absinthe cocktails are only served if the green lights are on, and they’re the main reason to seek this place out. The other is if you happen to be in Germantown rather than on Broadway.",
+        "address": "1201 5th Ave N, Nashville, TN 37208",
+        "latitude": 36.17531,
+        "longitude": -86.788239,
+        "coordinates": "-86.788239,36.17531",
+        "zipcode": 37208,
+        "hoodname": "Germantown",
+        "igWidgetId": "52592ad7-29b9-40e7-a358-11dfbe776389",
+        "hood": "Germantown",
+        "id": "acb0fe12-8db8-4afe-8de2-7327c165aceb"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.788239, 36.17531] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenhouse Bar",
+        "description": "Greenhouse Bar, not to be confused with Green Hour Lounge, is hidden away within a large greenhouse. There’s nothing quite like sipping surrounded by flora from all over. Who knows, perhaps the mint in your mint julep came from just outside the door. To top it off, the place just happens to be in Green Hills.\n\nThis place is worth coming to for lunch even if you aren’t a botanist. Cocktails are paired with craft beers, and the kitchen puts out some decent sandwiches and snacks. It’s also a much more laid-back feel than the nightly seen downtown.",
+        "address": "2211 Bandywood Dr, Nashville, TN 37215",
+        "latitude": 36.10443,
+        "longitude": -86.81761,
+        "IgWidgetId": "09fe615c-34e1-4fa3-acc5-4f8ea8ab65c0",
+        "coordinates": "-86.81761,36.10443",
+        "zipcode": 37215,
+        "hoodname": null,
+        "hood": null,
+        "id": "15ac8ba9-8e58-41bd-99c4-8676eb0bac90"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.81761, 36.10443] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dirty Little Secret",
+        "description": "The Dirty Little Secret is that this place is little-known outside of Nashville locals. Near Printers Alley, where almost everyone heads, this hole in the wall gets overlooked because of its location and appearance. Look for a nondescript bar just off of Printers Alley, rather than a ritzy one right on the street.\n\nBeing a local gem doesn’t mean The Dirty Little Secret is cheap. It’s where locals head for a special night out. Cocktails regularly run $10+.Seats can fill up on busier evenings, too. It’ll just be a more Nashville crowd than what’s at the others.",
+        "address": "210 Printers Alley, Nashville, TN 37201",
+        "latitude": 36.16433,
+        "longitude": -86.77866,
+        "coordinates": "-86.77866,36.16433",
+        "zipcode": 37219,
+        "hoodname": "Downtown",
+        "IgWidgetId": "dc3151c5-7f83-476e-807d-9ab6274df8f6",
+        "hood": "Downtown",
+        "id": "e1627fb8-5730-4b17-bf9e-d07872deec04"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.77866, 36.16433] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Late Great Nashville",
+        "description": "The Late Great is one of many bars in midtown Nashville, located below the Virgin Hotel with its interior designed by Hannah Crowell, granddaughter of Johnny Cash, and it pays homage to country music and Americana icons from the 1970s and earlier. The space features folk art, family photos, and artifacts that create a cozy, eclectic feel.\n\nThe Late Great at Virgin Hotels harkens back to the golden days of country music. You could easily imagine Johnny Cash himself having a cocktail here. The speakeasy is modeled after the rooms music studio “B rooms”, where the musicians could be found lounging but industry executives generally weren’t allowed.\n\nThis is one speakeasy that remains a fairly private club, complete with liquor lockers. You’re able to call ahead for reservations if you have a small group, though. Ask on the phone how to recognize the unmarked door. ",
+        "address": "1 Music Square W, Nashville, TN 37203",
+        "latitude": 36.15165,
+        "longitude": -86.793222,
+        "coordinates": "-86.793222,36.15165",
+        "zipcode": 37203,
+        "IgWidgetId": "f2495fc5-ae27-4ad4-ab54-5ec7671fee63",
+        "hoodname": "Music Row/Demon Breun",
+        "hood": "Music Row/Demon Breun",
+        "id": "0c7f8017-a9a9-4da0-9c36-f4f4b85b0bfe"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.793222, 36.15165] }
+    }
+  ]
 }

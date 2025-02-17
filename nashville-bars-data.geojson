@@ -133,7 +133,7 @@
         "address": "2211 Bandywood Dr, Nashville, TN 37215",
         "latitude": 36.10443,
         "longitude": -86.81761,
-        "IgWidgetId": "09fe615c-34e1-4fa3-acc5-4f8ea8ab65c0",
+        "igWidgetId": "09fe615c-34e1-4fa3-acc5-4f8ea8ab65c0",
         "coordinates": "-86.81761,36.10443",
         "zipcode": 37215,
         "hoodname": null,
@@ -153,7 +153,7 @@
         "coordinates": "-86.77866,36.16433",
         "zipcode": 37219,
         "hoodname": "Downtown",
-        "IgWidgetId": "dc3151c5-7f83-476e-807d-9ab6274df8f6",
+        "igWidgetId": "dc3151c5-7f83-476e-807d-9ab6274df8f6",
         "hood": "Downtown",
         "id": "e1627fb8-5730-4b17-bf9e-d07872deec04"
       },
@@ -169,7 +169,7 @@
         "longitude": -86.793222,
         "coordinates": "-86.793222,36.15165",
         "zipcode": 37203,
-        "IgWidgetId": "f2495fc5-ae27-4ad4-ab54-5ec7671fee63",
+        "igWidgetId": "f2495fc5-ae27-4ad4-ab54-5ec7671fee63",
         "hoodname": "Music Row/Demon Breun",
         "hood": "Music Row/Demon Breun",
         "id": "0c7f8017-a9a9-4da0-9c36-f4f4b85b0bfe"

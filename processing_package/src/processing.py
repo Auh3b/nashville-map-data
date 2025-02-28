@@ -39,6 +39,11 @@ def generateUniqueId():
     return str(uuid.uuid4())
 
 
+def processId(df: DataFrame):
+    df['id'] = df.apply(lambda x: generateUniqueId(), axis=1)
+    return df
+
+
 def getImportFileType(file: str):
     root, ext = os.path.splitext(file)
     return ext[1:]
@@ -96,6 +101,7 @@ def main(input: str, mapbox_token: str, output: str = "", input_format="", outpu
     df = fileToDataframe(input, ext)
     df = process_columns(df)
     df = processAddresses(df, mapbox_token)
+    df = processId(df)
 
     output_path = os.path.splitext(output)[0]
 

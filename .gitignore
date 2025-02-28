@@ -1,1 +1,2 @@
 *.qmd
+*__pycache__

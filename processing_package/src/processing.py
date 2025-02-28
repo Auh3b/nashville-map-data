@@ -2,7 +2,6 @@ import requests
 import os
 from pandas import read_csv, read_json, read_excel, DataFrame
 from geojson import FeatureCollection
-import shapely
 import sys
 import uuid
 
@@ -30,7 +29,7 @@ def getAddressCoordinates(address, MAPBOX_TOKEN):
 
 def processAddresses(df: DataFrame, mapbox_token):
     df['coordinates'] = df["address"].apply(
-        lambda x: getAddressCoordinates(x))
+        lambda x: getAddressCoordinates(x, mapbox_token))
     df['longitude'] = df["coordinates"].apply(lambda x: float(x.split(",")[0]))
     df['latitude'] = df["coordinates"].apply(lambda x: float(x.split(",")[1]))
     return df
@@ -41,7 +40,7 @@ def generateUniqueId():
 
 
 def getImportFileType(file: str):
-    root, ext = os.path.splitext()
+    root, ext = os.path.splitext(file)
     return ext[1:]
 
 
@@ -63,6 +62,19 @@ def fileToDataframe(input: str, ext: str) -> DataFrame:
         sys.exit()
 
 
+def exportDataFrameToFile(df: DataFrame, ext: str, output: str):
+    if (ext == 'csv'):
+        output_path = output + ".csv"
+        df.to_csv(output_path)
+        print(f"Output export to {output_path}")
+        return
+    if (ext == 'json'):
+        output_path = output + ".json"
+        df.to_json(output_path, orient='records')
+        print(f"Output export to {output_path}")
+        return
+
+
 def process_columns(df: DataFrame):
     columns = df.columns
     new_cols = [str(x).lower().replace(" ", "_") for x in columns]
@@ -73,17 +85,25 @@ def process_columns(df: DataFrame):
 def main(input: str, mapbox_token: str, output: str = "", input_format="", output_format=""):
     ext = input_format
 
+    print("input: ", input)
+    print("output: ", output)
+    print("input format: ", input_format)
+    print("output format: ", output_format)
+
     if (not ext):
         ext = getImportFileType(input)
 
     df = fileToDataframe(input, ext)
     df = process_columns(df)
+    df = processAddresses(df, mapbox_token)
 
+    output_path = os.path.splitext(output)[0]
 
-# working_folder = os.getcwd()
+    if (not output_path):
+        output_path = os.path.splitext(input)[0]
 
-# bars = pd.read_excel("nashville-bars-data.xlsx")
-# MAPBOX_TOKEN = os.getenv("MAPBOX_TOKEN")
+    out_ext = output_format
+    if (not out_ext):
+        out_ext = ext
 
-
-# bars.to_json("nashville-bars-data.json", orient="records")
+    exportDataFrameToFile(df, out_ext, output_path)
